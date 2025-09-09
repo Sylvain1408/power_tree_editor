@@ -1,7 +1,8 @@
 import json
 from PySide6 import QtWidgets, QtCore
 from PySide6.QtCore import QPointF, Qt
-from PySide6.QtWidgets import QGraphicsScene, QGraphicsItem
+from PySide6.QtWidgets import QGraphicsScene, QGraphicsItem, QGraphicsPathItem
+from PySide6.QtGui import QPainterPath, QPen, QBrush, QAction, QFont, QColor
 from model.stage import PowerStage
 from graphics.node_item import NodeItem
 from graphics.edge_item import EdgeItem
