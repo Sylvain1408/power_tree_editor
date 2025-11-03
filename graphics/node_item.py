@@ -79,7 +79,7 @@ class NodeItem(QGraphicsRectItem):
                 f"Imax_IC = {s.iout_max_ic:.3g} A",
                 f"η = {s.eff_effective*100:.1f}%, Iq = {s.iq:.3g} uA",
                 f"Pin = {s.p_in:.3g} W, Pout = {s.p_out:.3g} W",
-                f"Iin = {s.i_in:.3g} A, Pdiss = {s.p_diss:.3g} W",
+                f"Iin = {s.i_in:.3g} A, Iout = {s.p_out/s.vout:.3g} A",
                 f"Ptot ≈ {s.p_tot:.3g} W",
             ])
 
