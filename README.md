@@ -5,27 +5,27 @@ Power Tree Editor
 A graphical editor built with PySide6 to design and analyze power supply trees.
 Each node represents a stage (source, LDO, DC/DC, load), and the tool automatically computes electrical parameters (efficiency, dissipation, errors, etc.).
 
-✨ Features
+Features
 
-🔌 Create nodes: INPUT, LDO, DCDC, LOAD
+Create nodes: INPUT, LDO, DCDC, LOAD
 
-🔗 Visual connection between nodes (drag & drop)
+Visual connection between nodes (drag & drop)
 
-⚡ Automatic calculation of:
+Automatic calculation of:
 
-Input / output voltages
+  Input / output voltages
 
-Efficiency
+  Efficiency
 
-Power dissipation and quiescent current (Iq)
+  Power dissipation and quiescent current (Iq)
 
-Constraint checks (Vin min/max, Iout max, etc.)
+  Constraint checks (Vin min/max, Iout max, etc.)
 
-📝 Property inspector to edit node parameters
+Property inspector to edit node parameters
 
-🚨 Error panel to diagnose design issues
+Error panel to diagnose design issues
 
-💾 Save / load schematics in JSON format
+Save / load schematics in JSON format
 
 To run : python app.py
 
